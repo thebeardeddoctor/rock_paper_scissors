@@ -1,0 +1,24 @@
+
+/* header  */
+header {
+ text-align: center;
+ font-size: 80px;
+ color: seagreen;
+}
+
+/* paragraph style */
+
+#selectWeapon {
+ font-size: 30px;
+ text-align: center;
+}
+
+/* <!-- weapon flexbox --> */
+.weaponPic {
+ width: 16.666vw;
+}
+.weaponContainer {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+}

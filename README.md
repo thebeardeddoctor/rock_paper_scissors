@@ -18,7 +18,7 @@ A hand game originating from Japan is played between two people often used a fai
 Rock paper scissors is a zero sum game with the outcome of win, lose or draw. Using thier hands, each player simultaneously makes a fist and bangs it on top on thier opposite palm three times while yelling "Rock," "Paper" and "Scissors," On "Scissors" each player will forms one of three shapes with one hand as below:
 
 ### Rock
-![closed fist symbolizing rock](https://images.unsplash.com/photo-1614032686163-bdc24c13d0b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80 "Closed fist symbolizing 'Rock'")
+![closed fist symbolizing rock](https://images.unsplash.com/photo-1614032686163-bdc24c13d0b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80 "Closed fist symbolizing 'Rock'")
 
 ### Paper
 
