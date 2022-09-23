@@ -1,53 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Rock Paper Scissors</title>
- <link rel="stylesheet" href="rps.css">
- <script src="rps.js"></script>
-</head>
+  <head> 
+    <script
+    src="https://kit.fontawesome.com/4c536a6bd5.js"
+    crossorigin="anonymous"
+  ></script>
 
-<body>
-
- <header>Welcome to Rock Paper Scissors!</header>
-<main class="weapons">
-  <p id="selectWeapon">Select your weapon!</p>
-
- 
-  <div class="weaponContainer">
-    
-   <div class="rockbox">
-    <img  alt="rock" class="weaponPic"  id="rock" src="https://images.unsplash.com/photo-1614032686163-bdc24c13d0b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80">
-    <h2 class="pictext">Rock</h2>
-  </div>
-  <div class="paperbox">
-    <img alt="paper" class="weaponPic" id="paper" src="https://images.unsplash.com/photo-1614032686158-b880f7e82c18?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" >
-    <h2 class="pictext">Paper</h2>
-  </div>
-  <div class="scissorbox">
-    <img alt="scissors" class="weaponPic" id="scissors" src="https://images.unsplash.com/photo-1614032686099-e648d6dea9b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80">
-    <h2 class="pictext">Scissors</h2>
-  </div> 
-   
-  </div>
-  <div class="scoreboard">
-    <div>
-      <h2 id="score">Score</h2>
-    </div>
-    <div class="player">
-      <h2 class="scoretxt">Player</h2>
-      <h2 id="playerscore">0</h2>
-    </div>
-    <div>
-      <h2 class="scoretxt">Computer</h2>
-      <h2  id="computersore">0</h2>
-    </div>
-
-  </div>
-  
-</main> 
-
-</body>
+    <link rel="icon" type="image/x-icon" href="./143821668_244971993875843_3708777755363635712_o.png">
+    <link rel="stylesheet" href="rps.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <header>Rock Paper Scissors!</header>
+    <main class="weapons">
+      <p id="selectWeapon">Select your weapon!</p>
+      <div class="weaponContainer">
+        <div class="rockbox" id="🪨">
+          <h2 class="weaponPic">🪨</h2>
+        </div>
+        <div id="🧻" class="paperbox">
+          <h2 class="weaponPic">🧻</h2>
+        </div>
+        <div id="✂️" class="scissorbox">
+          <h2  class="weaponPic">✂️</h2>
+        </div> 
+      </div>
+      <div class="resultbox">
+        <h2 id="userGuess">Player:</h2>
+        <h2 id="compGuess"> Computer:</h2>
+      </div>
+      <div class="endgame">
+        <h2 id="round">-</h2>
+      </div>
+      
+      <!-- scoreboard -->
+      <div class="scoreboard">
+        <div>
+          <h2 id="score">Score</h2>
+        </div>
+        <div class="player">
+          <h2 class="scoretxt">Player</h2>
+          <h2 id="playerscore">0</h2>
+        </div>
+        <div>
+          <h2 class="scoretxt">Computer</h2>
+          <h2  id="computerscore">0</h2>
+        </div>
+      </div>
+      <div id=resetbtn>
+        Reset
+      </div>
+    </main> 
+    <script src="rps.js"></script>
+  </body>
+  <footer class="footer">
+    <p>
+      Copyright ©
+      <script>
+        document.write(new Date().getFullYear())
+      </script>
+      Antonio Smith
+    </p>
+    <a href="https://github.com/thebeardeddoctor" target="_blank">
+      <i class="fab fa-github"></i
+    ></a>
+  </footer>
 </html>
