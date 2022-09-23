@@ -9,6 +9,7 @@
 // if player wins, update their score count and give response "you win"
 // if computer wins, increment computers score count and tell user "you lose"
 // stop game when the best of 5 is figured out 
+const 
 let userScore=0;
 let computerScore=0;
   for (let i=0; i<5; i++){

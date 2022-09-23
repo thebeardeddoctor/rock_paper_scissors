@@ -1,9 +1,12 @@
-
+/* body  */
+body{
+ background-color: rgb(60, 60, 60);
+}
 /* header  */
 header {
  text-align: center;
  font-size: 80px;
- color: seagreen;
+ color: rgb(60, 200, 120);
 }
 
 /* paragraph style */
@@ -11,14 +14,73 @@ header {
 #selectWeapon {
  font-size: 30px;
  text-align: center;
+color: whitesmoke;
+ font-size: 40px;
+
 }
 
 /* <!-- weapon flexbox --> */
 .weaponPic {
- width: 16.666vw;
+ width: 25vw;
+ border: 8px solid forestgreen;
+ border-radius: 10px;
+ box-shadow: 5px 5px 10px 8px black;
+ transition: 1s ;
+}
+.weaponPic:hover{
+ transform: scale(1.1);
+ transition-timing-function:ease-in-out ;
 }
 .weaponContainer {
  display: flex;
  flex-direction: row;
  justify-content: space-evenly;
+ border: 20px solid forestgreen;
+ padding-top: 20px;
+ border-radius: 15px;
 }
+
+.pictext{
+ text-align: center;
+ color: whitesmoke;
+}
+
+/* scoreboard */
+
+.scoreboard{
+ height: 100%;
+ border: 5px solid black;
+ display: flex;
+ flex-wrap: wrap;
+ margin-top: 5vh;
+ margin-right: 25vw;
+ margin-left: 25vw;
+}
+
+.scoreboard div{
+ flex: 1;
+}
+
+.scoreboard>div:nth-of-type(1){
+ flex: 1 1 100%;
+
+}
+/* .scoreboard>div:nth-of-type(4){
+ flex: 1 100%;
+ 
+} */
+
+#score{
+ text-align: center;
+ border-bottom: 5px solid black;
+ padding-bottom: 20px;
+}
+
+.scoretxt{
+ text-align: center;
+}
+
+.scoretxt + h2{
+ text-align: center;
+}
+
