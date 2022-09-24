@@ -34,8 +34,8 @@ header {
 
 /* <!-- weapon flexbox --> */
 .weaponPic {
- width: 15vw;
- font-size: 80px;
+ width: 8rem;
+ font-size: 60px;
  border-radius: 10px;
  box-shadow: 5px 5px 10px 8px rgb(215,46,0);
  transition: .3s ;
@@ -50,24 +50,29 @@ header {
 .weaponContainer {
  display: flex;
  flex-direction: row;
- justify-content: space-evenly;
- padding-top: 20px;
+ justify-content: space-between;
+ margin-left: 37vw;
+ margin-right: 37vw;
+ margin-top: 10px;
+ margin-bottom: 20px;
 }
 
 
 .resultbox{
  display: flex;
  flex-direction: row;
- justify-content: space-evenly;
- padding-top: 40px;
+ justify-content: space-between;
+ margin-left: 33vw;
+ margin-right: 33vw;
+ margin-top: 20px;
  font-family: "Bungee Spice", cursive;
- font-size: 40px;
+ font-size: 20px;
  text-align: center;
 }
 
 #round{
  font-family: "Bungee Spice" , cursive;
- font-size: 30px;
+ font-size: 20px;
  text-align: center;
 padding-top: 20px;
 
@@ -77,13 +82,13 @@ padding-top: 20px;
 
 .scoreboard{
  font-family: 'Bungee Spice', cursive;
- font-size: 30px;
+ font-size: 20px;
  height: 100%;
  display: flex;
  flex-wrap: wrap;
  margin-top: 5vh;
- margin-right: 25vw;
- margin-left: 25vw;
+ margin-right: 33vw;
+ margin-left: 33vw;
 }
 
 .scoreboard div{
@@ -130,13 +135,12 @@ padding-top: 20px;
 .fa-github:hover {
  transform: rotate(10800deg) scale(1.2);
 }
-#resetbtn{
- margin-top: 20px;
- margin-left: 43vw;
- margin-right: 43vw;
- text-align: center;
+.btndiv{
+  text-align: center;
+  margin-top: 20px;
+}
+#resetbtn{  
  border: 1px solid;
- align-items: center;
  font-family: 'Bungee spice', cursive ;
  font-size: 34px;
  background-color: rgb(30, 29, 29);

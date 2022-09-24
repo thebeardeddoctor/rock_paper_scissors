@@ -40,7 +40,7 @@ There are three combinations possible to win:
 
 ![Rock Paper scissors diagram](https://cdn.vox-cdn.com/thumbor/D_2XiTfAk5x7VXxfYIJ3bZNUByw=/0x0:2429x2396/920x0/filters:focal(0x0:2429x2396):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/3488502/shutterstock_106919999.0.jpg)
 
-## Logic
+## Logic (browser game)
 
 - User will be prompted to enter rock, paper, or scissors. This will be case insensitive. 
 - The computer will generate a random response of rock paper or scissors. 
@@ -48,9 +48,16 @@ There are three combinations possible to win:
 - The guess from the user and random guess from the computer will be compared based on the rules to determine a winner or a draw. 
 - The player with 3 of five wins will be declared the victor. 
 
+## Logic for the UI version of the game
+- get response from a user via a button denoting rock paper scissors 
+- event listerns associated with the buttons will trigger a function that compares the users selection with the computers random selection. 
+ - a winner will be determined by the function
+ - The winners points will increase by one
+ - the display will output a string detailing the result
+ - the points will be checked to see if a player has reached five points
+ - once this occurs we will stop the game and output a string to denote the winner
+ - the game will reset and the gameboard will go back to the original state. 
+
 ## Technology
-
+HTML/CSS
 Javascript
-
-- This program will initially run in the console. 
-- Future iterations will include a GUI.
