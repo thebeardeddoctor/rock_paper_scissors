@@ -15,17 +15,25 @@
  <title>Rock Paper Scissors</title>
 </head>
 <body>
+ <header id="header">Rock Papers Scissors</header>
+ <p class="choose-weapon">Choose Your Weapon!</p>
  <!-- game board -->
  <div class="gameboard">
   <!-- result section: This will contain the result of each round that we want to display to the user -->
-  <p id="result-message"></p>
+  <p id="result-message">-</p>
+
+  <!-- scoreboard will display the score to the user -->
+
   <h2 class="score">Score</h2>
   <div class="scoreboard-container">
-   <div class="score-text"></div>
-   <div class="score-text"></div>
-   <div id="user-score"></div>
-   <div id="computer-score"></div>
+   <div class="score-text">Player</div>
+   <div class="score-text">Computer</div>
+   <div id="user-score">0</div>
+   <div id="computer-score">0</div>
   </div>
+
+  <!-- restart button -->
+  <button id="restartbtn">RESTART</button>
 
   <!-- flex container -->
   <div class="rps-flex-container">
@@ -40,7 +48,18 @@
    </div>
   </div>
  </div>
- 
- <!-- <script src="rps.js"></script> -->
+ <!-- footer -->
+ <footer id="footer">
+  <p>
+   Copyright ©
+   <script>document.write(new Date().getFullYear())</script>
+   Antonio Smith
+ </p>
+ <a href="https://github.com/thebeardeddoctor" target="_blank">
+   <i class="fab fa-github"></i
+ ></a>
+   <!-- <script src="rps.js"></script> -->
+ </footer>
+
 </body>
 </html>
