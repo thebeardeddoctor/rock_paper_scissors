@@ -180,7 +180,7 @@ body{
 @media (max-width: 600px) {
  #result-message{
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-family: 'Courier New', Courier, monospace;
   font-size: .8em;
  }
