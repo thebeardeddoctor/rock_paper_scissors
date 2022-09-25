@@ -201,11 +201,11 @@ body{
  
  .score-text{
   padding-top: 10px;
-  font-size: 2em;
+  font-size: 1.5em;
  }
  
  .scorenum{
   margin-bottom: 10px;
-  font-size: 12px;
+  font-size: 1.5em;
  }
 }
