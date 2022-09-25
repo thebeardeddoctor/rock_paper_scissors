@@ -170,5 +170,9 @@ body{
 #footer a{
  color: whitesmoke;
  text-decoration: none;
+ transition: transform 0.3s ease-in-out;
+}
 
+#footer a:hover{
+ transform: rotate(10800deg) scale(1.2);
 }
