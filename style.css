@@ -1,0 +1,174 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* MY CSS STARTS HERE */
+header{
+ padding: 20px;
+ background-color: rgb(15,59,58);
+ box-shadow: 0px 3px 5px black;
+ color: whitesmoke;
+ font-family: 'Rubik Disstressed', cursive;
+ font-size: 3rem;
+ text-align: center;
+}
+body{
+ background-color: whitesmoke;
+}
+
+ p, h2, div{
+ color:rgb(15,59,58);
+ font-family: 'Rubik Distressedd', cursive;
+ font-size: 2rem;
+ font-weight: 900;
+}
+
+.choose-weapon{
+ text-align: center;
+ padding-top: 30px;
+ padding-bottom: 30px;
+}
+
+#result-message{
+ text-align: center;
+ margin-bottom: 20px;
+}
+
+.resultbox{
+ text-align: center;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ gap: 40px;
+ margin-top: 70px;
+}
+.rps-flex-container{
+ display: flex;
+ flex-direction: row;
+ gap: 20px;
+ justify-content: center;
+ margin-top: 40px;
+}
+.rps-text{
+ align-items: center;
+ background-color: rgb(15,59,58);
+ border-radius: 15px;
+ box-shadow: 3px 2px 5px black;
+ font-size: 5rem;
+ padding: 10px;
+ transition-delay: .2s;
+}
+.rps-text:hover{
+ transform: scale(1.2);transition-timing-function: ease-in-out;
+}
+.score{
+ text-align: center;
+ margin-top: 80px;
+ margin-bottom: 40px;
+ 
+}
+
+.scoreboard-container{
+ display:grid;
+ grid-template-columns: repeat(2,1fr);
+ grid-template-rows: repeat(2,1fr);
+ text-align: center;
+}
+
+.score-text{
+ padding-top: 10px;
+ font-size: 1.2em;
+}
+
+.scorenum{
+ margin-bottom: 20px;
+ font-size: 2em;
+}
+
+.divbtn{
+ text-align: center;
+ background-color: transparent;
+}
+
+#restartbtn{
+ background-color: rgb(15,59,58);
+ border-radius: 15px;
+ color: whitesmoke;
+ font-size: 1.2em;
+ font-family: 'Rubik Disstressed', cursive; ;
+ margin-top: 50px;
+}
+
+#restartbtn:hover{
+ transform: scale(1.2);
+}
+#footer{
+ background-color:rgb(15,59,58) ;
+ bottom: 0;
+ left: 0;
+ font-size: 20px;
+ position: absolute;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 10px;
+ padding: 10px;
+ width: 100%;
+}
+
+#footer p{
+ color: whitesmoke;
+ font-size: 20px;
+
+}
+#footer a{
+ color: whitesmoke;
+ text-decoration: none;
+
+}

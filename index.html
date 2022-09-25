@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- my css start at line 50 of the stylesheet-->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="./logo tbd.png">
+  <script
+  src="https://kit.fontawesome.com/4c536a6bd5.js"
+  crossorigin="anonymous">
+  </script> 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Rock Paper Scissors</title>
+</head>
+<body>
+ <header id="header">Rock Papers Scissors</header>
+ <p class="choose-weapon">Choose Your Weapon!</p>
+ <!-- game board -->
+ <div class="gameboard">
+  <!-- result section: This will contain the result of each round that we want to display to the user -->
+  <p id="result-message">-</p>
+  <div class="resultbox">
+    <h2 id="userGuess">Player:</h2>
+    <h2 id="compGuess"> Computer:</h2>
+  </div>
+  <!-- flex container -->
+  <div class="rps-flex-container">
+    <div id="🪨">
+      <h2 class="rps-text">🪨</h2>
+    </div>
+    <div id="🧻">
+      <h2 class="rps-text">🧻</h2>
+    </div>
+    <div id="✂️">
+      <h2 class="rps-text">✂️</h2>
+    </div>
+  </div>
+  
+  <!-- scoreboard will display the score to the user -->
+
+  <h2 class="score">Score</h2>
+  <div class="scoreboard-container">
+   <div class="score-text">Player</div>
+   <div class="score-text">Computer</div>
+   <div class='scorenum'id="user-score">0</div>
+   <div class='scorenum' id="computer-score">0</div>
+  </div>
+
+  <!-- restart button -->
+  <div class="divbtn">
+    <button id="restartbtn">RESTART</button>
+  </div>
+  
+
+</body>
+ <!-- footer -->
+ <footer id="footer">
+  <p>
+   Copyright ©
+   <script>document.write(new Date().getFullYear())</script>
+   Antonio Smith
+ </p>
+ <a href="https://github.com/thebeardeddoctor" target="_blank">
+   <i class="fab fa-github"></i
+ ></a>
+   <script src="rps.js"></script>
+ </footer>
+
+</body>
+</html>

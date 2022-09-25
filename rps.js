@@ -4,11 +4,11 @@ const paper = document.getElementById('🧻');
 const scissors = document.getElementById('✂️');
 const userGuess= document.getElementById('userGuess')
 const compGuess=document.getElementById('compGuess')
-const round = document.getElementById('round')
-const compScore= document.getElementById('computerscore')
-const playerScore=document.getElementById('playerscore')
+const round = document.getElementById('result-message')
+const compScore= document.getElementById('computer-score')
+const playerScore=document.getElementById('user-score')
 const results = document.querySelector('.endgame')
-const resetbtn=document.querySelector('#resetbtn')
+const resetbtn=document.querySelector('#restartbtn')
 
 let userScore=0;
 let computerScore=0;
